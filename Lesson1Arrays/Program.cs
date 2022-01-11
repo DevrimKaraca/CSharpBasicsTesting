@@ -10,6 +10,23 @@ namespace Lesson1Arrays
     {
         static void Main(string[] args)
         {
+            int arraysLength = 10;
+            
+            int[] integerArray = new int[arraysLength];
+            string[] stringArray = new string[arraysLength];
+            
+            Nurgul nurgul = new Nurgul();
+            nurgul.hairColor = "orange";
+
+
+            string x = nurgul.hairColor;
         }
+    }
+
+
+
+    class Nurgul 
+    {
+        public string hairColor="black";
     }
 }
