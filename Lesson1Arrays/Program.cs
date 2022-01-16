@@ -19,7 +19,7 @@ namespace Lesson1Arrays
             nurgul.hairColor = "orange";
 
 
-            string x = nurgul.hairColor;
+            string nurgulHairColor = nurgul.hairColor;
         }
     }
 

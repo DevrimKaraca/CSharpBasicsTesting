@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cSharpBasics", "cSharpBasic
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson1Arrays", "Lesson1Arrays\Lesson1Arrays.csproj", "{39D1FEBE-66FA-4BEC-A225-508BBFA2FAB5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "serialPortReader", "serialPortReader\serialPortReader.csproj", "{C8F7D5FE-5413-4352-97A8-E65153570EDF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{39D1FEBE-66FA-4BEC-A225-508BBFA2FAB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{39D1FEBE-66FA-4BEC-A225-508BBFA2FAB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{39D1FEBE-66FA-4BEC-A225-508BBFA2FAB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8F7D5FE-5413-4352-97A8-E65153570EDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8F7D5FE-5413-4352-97A8-E65153570EDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8F7D5FE-5413-4352-97A8-E65153570EDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8F7D5FE-5413-4352-97A8-E65153570EDF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
