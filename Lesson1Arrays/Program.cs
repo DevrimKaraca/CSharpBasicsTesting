@@ -1,4 +1,5 @@
-﻿using System;
+﻿using lerningClassConstructorEtc;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -14,7 +15,10 @@ namespace Lesson1Arrays
             
             int[] integerArray = new int[arraysLength];
             string[] stringArray = new string[arraysLength];
-            
+
+            PERSON Nurgul = new PERSON();
+            Nurgul.hairColor = "Green";
+
             Nurgul nurgul = new Nurgul();
             nurgul.hairColor = "orange";
 

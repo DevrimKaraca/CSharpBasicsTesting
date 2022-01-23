@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 
 namespace cSharpBasics
 {
@@ -16,6 +17,8 @@ namespace cSharpBasics
 
             //string yazmakIstedigimSey1 = "nurgulYazmakİstedi.";
             //string yazmakIstedigimSey2 = "devrimYazmakİstedi.";
+            //int asdf = 0;
+            //BenBirKonsolaSeninIstediginiYazanMethodum(asdf.ToString());
             //BenBirKonsolaSeninIstediginiYazanMethodum(yazmakIstedigimSey1);
             //BenBirKonsolaSeninIstediginiYazanMethodum(yazmakIstedigimSey2);
 
@@ -23,10 +26,29 @@ namespace cSharpBasics
             //string yazdinmi = KonsolaBunuYaz(bunuSoylemekIstiyorum,5);
             //Karsilastir(yazdinmi);
 
-            for (int i = 0; i < 150; i++)
+            //for (int i = 0; i < 150; i++)
+            //{
+            //    string x1 = YaşınıSöyleSanaNeOlduğunuSöyleyeyim(i);
+            //}
+            Stopwatch sw = new Stopwatch();
+            int a = 0;
+            string x = "0";
+            for (int i = 0; i < 10000000; i++)
             {
-                string x1 = YaşınıSöyleSanaNeOlduğunuSöyleyeyim(i);
+                sw.Start();
+                a = 1;
+                sw.Stop();
             }
+            Console.WriteLine(sw.ElapsedMilliseconds);
+            sw.Reset();
+            for (int i = 0; i < 10000000; i++)
+            {
+                sw.Start();
+                x = "1";
+                sw.Stop();
+            }
+            Console.WriteLine(sw.ElapsedMilliseconds);
+            Console.ReadKey();
         }
 
         /// <summary>
@@ -75,7 +97,6 @@ namespace cSharpBasics
             OrtaYaşlı = 60,
             Yaşlı = 80
         }
-
         private static string YaşınıSöyleSanaNeOlduğunuSöyleyeyim(int yas)
         {
             //Intelisense otomatik kod tamamlama, Resharper Ram çok kullanır ama kullanışlı.
