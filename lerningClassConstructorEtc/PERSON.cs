@@ -13,7 +13,7 @@ namespace lerningClassConstructorEtc
         public PERSON() 
         {
             hairColor = "Black";
-            Console.WriteLine("Çalıştım ha.");
+            Console.WriteLine("Çalıştım.");
         }
 
 
